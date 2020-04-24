@@ -1,0 +1,26 @@
+2) Overview
+    - https://www.typescriptlang.org/play/index.html
+
+    - Só Javascript com "types"
+        - sem melhora de performance
+        - ajuda a debuggar enquanto você escreve o código
+
+3) Instalando Compiler
+    - npm install -g typescript ts-node
+        - ts-node ajuda a escrever typescript sem configurações extra
+
+    - tsc --help
+        - comandos do typescript compiler
+
+    - Instalando VS Code e outras extensões
+        - colocar "code" nas variáveis de ambiente (desnecessário)
+        - instalar Prettier pra formatação (já feito)
+            - configurar pra formatação quando salvar (já feito)
+            - configurar pra single ou double quotes
+            - ajeitar o tema pra Solarized Dark (não gostei)
+            - invisibilizar a Activity Bar (desnecessário)
+
+
+4) Primeiro Aplicativo
+    - Request de um JSON e printar o resultado
+    - Entender como typescript ajuda a visualizar bugs
