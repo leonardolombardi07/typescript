@@ -1,0 +1,5 @@
+14) Type Annotations e Inference
+  - Type Annotations
+    Trechos de código que vão definir o type de uma variável
+  - Type inference
+    - Typescript tenta descobrir o type de uma variável
