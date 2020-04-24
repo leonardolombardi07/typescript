@@ -28,3 +28,12 @@
 5) 
 
 7) Pegando erros com typescript
+    - interface: um objeto com propriedades
+    - usando "as _nomedainterface_" pra designar objetos a uma interface
+        - erros aparecem no código
+
+8) Outros erros
+    -Extrair console.log numa função
+    - errando a ordem dos argumentos de uma função
+        - adicionando tipos pras variáveis na função
+            - função(id:number, ...)
