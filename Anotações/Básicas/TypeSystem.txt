@@ -35,3 +35,15 @@
       - Types permitem ao typescript reconhecer erros;
       - Types ajudam programadores a entender os dados que estão
       sendo utilizados no projeto;
+
+  12) Exemplos de códigos
+    - types.ts
+      - mostrando erros de propriedades e métodos inexistentes
+      - se um valor não possui um tipo, são mostrados todos seus métodos
+      e proprieades
+
+  13) Quando usar types?
+    - Em todos os lugares! hahah é a melhor ferramenta do Typescript pra
+    mostrar erros e dar sugestões pro programador!
+
+                                                                                                                                                                                                                                                                                                                                                       
