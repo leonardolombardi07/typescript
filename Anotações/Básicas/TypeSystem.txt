@@ -1,0 +1,37 @@
+9) Como abordar o aprendizado de Typescript
+  - Sintaxe e funcionalidades & Design pra escrever código reutilizável
+    - podemos aprender sobre a sintaxe do typescript na documentação
+
+  - Vale à pena estudar um pouco de sintaxe antes de adentrar na parte de
+  projetos
+
+10) Types
+  - Overview do ensino:
+    - analise geral
+    - porque nos importamos com a funcionalidade em questão
+    - exemplos
+    - onde usar?
+
+  Types em typescript: "uma maneira simples de se referir a propriedades e 
+  funções que um valor possui
+    - valor = string, null, objects, arrays, numbers, class, etc
+    - propriedades de strings [concate(), indexOf()....]
+      - passar essa lista de métodos e propriedades = modo inconveniente
+      de definir um valor
+
+11) Mais sobre types
+  - TUDO em Typescript tem um tipo!
+
+  - Primitivos:
+    - number, boolean, string, symbol, null, undefined, void
+  
+  - Object:
+    - functions, classes, arrays, objects
+    - com esses tipos de dados, podemos manipular os tipos para que o
+    typescript interprete object types de maneiras diferentes dependendo 
+    do contexto (um objeto pode ser entendido como função, algo assim)
+
+    - Por que nos importamos? 
+      - Types permitem ao typescript reconhecer erros;
+      - Types ajudam programadores a entender os dados que estão
+      sendo utilizados no projeto;
