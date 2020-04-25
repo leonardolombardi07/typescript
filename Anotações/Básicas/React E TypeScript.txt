@@ -1,0 +1,24 @@
+254) Overview React e Redux
+  - Prós:
+    - Mais fácil de evitar erros de tipos (na action.type);
+    - Ajuda a entender qual tipo de dado tá sendo utilizado
+    - Mais fácil de reescrever o código
+
+  - Contras:
+    - type definition files são difíceis de tratar
+    - Muitos genéricos
+    - Muitos imports
+    - Redux - Functional, TS Classes
+  
+
+255) Descrição do Projeto
+  - Muito Simples
+
+256) Gerando o app no React
+  - npx create-react-app nome --typescript
+
+257) Components Simples
+  - .tsx -> arquivo contendo JSX
+  - recriando src
+
+258) Props com Typescript
