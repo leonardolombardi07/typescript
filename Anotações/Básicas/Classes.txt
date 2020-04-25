@@ -1,0 +1,39 @@
+43) Classes
+  - Modelo pra criar objetos - normalmente dados que representam algo 
+  do mundo real;
+    - Classes possuem propriedades e métodos
+      - Propriedades caracterizam nossa classe;
+        - em programação, naturalmente propriedades são descritas com os tipos 
+        de dados disponíveis (string, funções, etc);
+      - Métodos são simplesmente propriedades descritas por uma função;
+
+44) Herança em Classes do Typescript
+  - Mesma sintaxe do Javascript
+  - Podemos reescrever uma propriedade ou método;
+
+45) Modificadores de Instância
+  - public, private, protected
+    
+  - private: só pode ser acessado dentro do escopo da classe (propriedades e 
+  métodos da classe)
+  - protected: só pode ser acessado dentro do escopo da classe ou de classes
+  filhas (que a herdam)
+  - público: podem ser acessados em qualquer escopo;
+
+  - Por que modificamos a Instância?
+    - pra limitar onde outros programadores vão poder acessar as propriedades e
+    métodos de uma determinada classe
+    - métodos que podem quebrar um programa, por exemplo
+
+46) Propriedades em Classes
+    - constructor é a primeira função a ser executada
+    - recebe como argumentos as propriedades;
+    - podemos determinar a instancia de uma propriedade no constructor (public,
+    private ou protected)
+
+47) Propriedades e Herança
+  - super() -> chama o constructor da classe pai
+
+48) Por que nos importamos com classes?
+  - TS é uma linguagem mais orientada a classes;
+  - Classes e Interfaces são utilizadas lado-a-lado

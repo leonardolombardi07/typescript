@@ -1,0 +1,30 @@
+36) Interfaces
+  - Em combinação com classes, ajuda a construir classes melhor
+  - Cria um novo type, descrevendo os nomes e valores dos types de um objeto;
+
+
+37) Long-Type Annotations
+  - Type Annotation de objetos são grandes e poluem o código
+  - Podemos querer reutilizar a Type Annotation de um objeto
+
+38) Resolvendo Long-Type Annotations com Interfaces
+  - Nome genérico
+  - Começa com letra maiúscula
+
+39) Sintaxe de Interfaces
+  - Colocando métodos na interface
+    - funções específicas
+  - Colocando outros tipos de dado
+
+40) Funções em Interfaces
+  - Generalizando uma interface
+
+41) Reutilizando código com Interfaces
+  - Tornar interfaces genéricas permite reutilizar a mesma interface para tipos
+  de dados diferentes
+
+42) Abordagem com Interfaces
+  - Criar funções que aceitam argumentos tipados com interfaces sempre que
+  possível;
+  - Criamos objetos que podem ou não satisfazer as condições impostas pela
+  interface criada;

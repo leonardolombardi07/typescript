@@ -1,0 +1,22 @@
+33) Tuplas em TypeScript
+  - Em arrays perdemos informações sobre os dados
+  - Tuplas permitem manter essas informações
+
+34) Tuplas em ação
+  - Após a TypeInference de um array, podemos facilmente mudar a ordem dos 
+  elementos, desde que eles respeitem os types permitidos;
+  - Tuplas permitem assinalar uma ordem para a array
+    - na Type Annotation: [string, boolean, number]
+      - Deve estar na ordem específica! Isso é uma tupla!
+  
+  - Podemos criar um type: 
+    type Drink = [String, boolean, number]
+
+  - Não usamos tuplas frequentemente!
+
+
+35) Por que tuplas?
+  - Quando usamos um arquivo CSV;
+  - Em geral não são úteis
+    - Objetos, especificando o nome das propriedades com key-values, dá mais
+    informações sobre os dados!

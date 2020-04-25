@@ -1,0 +1,18 @@
+29) Arrays in Typescript
+  - Mesmo prototype do Javascript
+  - Geralmente trabalhamos com o mesmo type para os elementos do array;
+  - Type Inference: dependende dos valores dados;
+  - Arrays dentro de arrays:
+    String[][]
+
+30) Por que usar Typed Arrays
+  - Evitar adicionar valores errados num array;
+  - Type Inference quando estamos extraindo valores de um array;
+  - Somos ajudados com funções (map, push, etc)
+  - É flexível: pode ser uma array com múltiplos types nos seus elementos;
+
+31) Multiple Types em um Array
+  - Podemos usar annotation ou Inference
+
+32) Quando usar arrays
+  - Existe algo chamado tuples no Typescript

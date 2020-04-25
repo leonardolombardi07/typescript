@@ -1,0 +1,37 @@
+23) Mais sobre Annotations em funções
+  - Annotation:
+    - código que adicionamos pra especificar os types dos argumentos e do valor
+    de retorno da função;
+
+  - Inference
+    - Typescript tenta descobrir qual é o type do valor de retorno;
+
+  - Notação: (a:.., b:..): ...
+
+24) Inferencia em funções 
+  - Analisa se o type retornado é o correto, mas evidentemente não a lógica
+  do código;
+
+  - Em geral, é preciso declarar os types dos argumentos
+
+  - É possível usar inference para infererir o valor de retorno, mas é uma má
+  prática. É melhor sempre usar annotation em functions, pois podemos esquecer
+  de retorno e nos ajuda a pensar sobre a função
+    - Typescript não entende erros se não anotamos o type de retorno
+
+
+25) Annotations pra funções anonimas
+  - Revisão sobre funções anônimas
+  - Repetição pra Type Annotations em funções
+
+26) Void e Never
+  - Void -> quando não retornamos nada
+  - Never -> nunca vamos terminar a função (quando tempos algum erro)
+    - muito raramente usamos isso
+
+27) Desestruração com Typescript
+  - Primeiro a desestruração -> depois a Type Annotation dos argumentos
+
+28) Anootations com Objects
+  - Se utilizamos desestruração, temos que tomar cuidado
+
